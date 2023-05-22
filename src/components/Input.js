@@ -9,7 +9,7 @@ const Input = () => {
     </input>
     <span>
     <BsSearch/>
-     hekki maun
+     helo main
     </span>
     </form>
   )
