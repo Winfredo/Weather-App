@@ -1,18 +1,18 @@
 import React from 'react'
 import './input.css'
-import { BsSearch } from 'react-icons/fa';
+// import { BsSearch } from 'react-icons/fa';
 
 const Input = () => {
   return (
     <form className='input'>
-    <input type={'text'} placeholder='Please enter your location.'>
+    <input type={'text'} placeholder='Please enter your location.' className='input_value'>
     </input>
-    <span>
-    <BsSearch/>
-
+    <span className='input_icon'>
+        🔍
+        {/* <BsSearch/> */}
     </span>
     </form>
   )
 }
 
-export default Input
+export default Input 
