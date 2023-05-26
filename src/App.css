@@ -9,9 +9,66 @@
 
 .weather{
    width: 35rem;
-   height: 28rem;
+   height: 25rem;
    background-color: rgba(0,0,0,0.5); 
    border-radius: 20px;
    display: flex;
    flex-direction: column;
+   padding: 2rem;
+   justify-content: space-around;
+}
+
+.weather_location{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.weather_degrees{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.weather_description{
+    display: flex;
+    align-items: center;
+
+}
+.weather_head{
+    display: flex;
+    align-items: center;
+}
+.weather_icon{
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+
+.weather_description * p{
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.weather_date{
+    font-size: 1rem;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(246, 236, 236);
+}
+.weather_dates{
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 6rem;
+    margin-bottom: 3rem;
+    
+    
+}
+.weather_display{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 17rem;
+    margin-top: 1rem;
 }
