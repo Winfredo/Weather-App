@@ -1,6 +1,6 @@
 import React from 'react'
 import './input.css'
-// import { BsSearch } from 'react-icons/fa';
+import {BsSearch} from 'react-icons/bs'
 
 const Input = () => {
   return (
@@ -8,8 +8,9 @@ const Input = () => {
     <input type={'text'} placeholder='Please enter your location.' className='input_value'>
     </input>
     <span className='input_icon'>
-        🔍
-        {/* <BsSearch/> */}
+      <BsSearch/>
+        {/* 🔍 */}
+      
     </span>
     </form>
   )
