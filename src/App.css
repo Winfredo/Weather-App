@@ -68,7 +68,7 @@
 .weather_display{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content:space-between;
     height: 17rem;
     margin-top: 1rem;
 }
