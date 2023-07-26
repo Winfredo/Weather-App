@@ -2,14 +2,13 @@ import React from 'react'
 import './input.css'
 import {BsSearch} from 'react-icons/bs'
 
-const Input = () => {
+const Input = ({text,submit,func}) => {
   return (
-    <form className='input'>
-    <input type={'text'} placeholder='Please enter your location.' className='input_value'>
+    <form className='input' onSubmit={submit}>
+    <input type={'text'} placeholder='Please enter your location.' className='input_value' onChange={text}>
     </input>
-    <span className='input_icon'>
+    <span className='input_icon'onClick={func}>
       <BsSearch/>
-        {/* 🔍 */}
       
     </span>
     </form>
